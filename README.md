@@ -11,7 +11,7 @@ February 20, 2024
 |----------------|------------------------------------------------|
 | CLI-based      | Kali Linux (cracklib-check, grep, Python, etc.)|
 | Web-based      | [PasswordChecker.com](https://passwordchecker.com) |
-| Output         | HTML report + Python script + markdown analysis|
+| Output         | Markdown analysis|
 
 
 ## Files Included
