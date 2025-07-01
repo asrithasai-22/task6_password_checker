@@ -2,7 +2,8 @@
 
 This project analyzes and compares password strength using **Kali Linux command-line tools** and the **PasswordChecker.com** web tool. It demonstrates how password complexity, randomness, and length impact security, and summarizes best practices against common attacks.
 
----
+**Date of Report**
+February 20, 2024
 
 ## Project Overview
 
@@ -12,12 +13,8 @@ This project analyzes and compares password strength using **Kali Linux command-
 | Web-based      | [PasswordChecker.com](https://passwordchecker.com) |
 | Output         | HTML report + Python script + markdown analysis|
 
----
 
 ## Files Included
-
-
----
 
 ## Tools & Techniques Used
 
@@ -31,6 +28,7 @@ This project analyzes and compares password strength using **Kali Linux command-
 - [PasswordChecker.com](https://passwordchecker.com) – Scored each password (0–4) with visual meter
 - Provided real-time feedback like “Too short”, “Common password”, “Strong”, etc.
 
+
 ## Passwords Tested
 
 | Password                         | Source     | Complexity | Cracklib | Zxcvbn Score | Dictionary Match |
@@ -39,10 +37,9 @@ This project analyzes and compares password strength using **Kali Linux command-
 | `xK8#qP$2mL!9zR*5`               | Openssl    | High       | Strong   | 4/4          | No               |
 | `ThisIsASuperLongSecurePassphrase2025` | Manual | Very High | Strong   | 4/4          | No               |
 
+## 📄 How to Run This Project
 
-## How to Run This Project
-
-### Kali Linux Method
+### ✔️ Kali Linux Method
 
 Install required tools:
 
@@ -59,8 +56,5 @@ grep -Fx "Password123" /usr/share/wordlists/rockyou.txt
 
 # Python entropy and feedback analysis
 python3 check_strength.py
-
-**Date of Report**
-February 20, 2024
 
 This report was generated in a virtual environment using Kali Linux tools and PasswordChecker.com Website.
