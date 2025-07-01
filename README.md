@@ -54,10 +54,11 @@ pip install zxcvbn
 # Check with cracklib
 cat pass1.txt | cracklib-check
 
-# Dictionary attack simulation
+# Dictionary attack simulation using rockyou
 grep -Fx "Password123" /usr/share/wordlists/rockyou.txt
 
-# Python script analysis
+# Python entropy and feedback analysis
 python3 check_strength.py
+
 
 **Report Date: February 20, 2024**
