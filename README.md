@@ -57,4 +57,3 @@ grep -Fx "Password123" /usr/share/wordlists/rockyou.txt
 # Python entropy and feedback analysis
 python3 check_strength.py
 
-This report was generated in a virtual environment using Kali Linux tools and PasswordChecker.com Website.
