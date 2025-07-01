@@ -60,5 +60,4 @@ grep -Fx "Password123" /usr/share/wordlists/rockyou.txt
 # Python entropy and feedback analysis
 python3 check_strength.py
 
-
 **Report Date: February 20, 2024**
